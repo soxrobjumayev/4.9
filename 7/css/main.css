@@ -1,0 +1,75 @@
+.otadiv{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: rgba(165, 42, 42, 0.348);
+}
+
+.card{
+    width: 500px;
+    height: 500px;
+    padding-top: 10px;
+    
+    
+}
+
+.img_mv{
+    width: 350px;
+    height: 350px;
+    border: 3px red solid;
+    border-radius: 5px;
+}
+
+.btn{
+    display: block;
+    width: 200px;
+    height: 30px;
+    margin-left: 80px;
+    background-color: aqua;
+    border-radius: 10px;
+}
+
+.btn:active{
+    background-color: brown;
+}
+
+.title_h3{
+    margin-left: 100px;
+}
+
+
+.mymodal{
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.349);
+    z-index: 99;
+    backdrop-filter: blur(3px);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    visibility: hidden;
+    opacity: 0;
+}
+
+
+.mymodal--active{
+    visibility: hidden;
+    opacity: 1;
+}
+
+
+.modalcontent{
+    max-width: 80%;
+    min-width: 400px;
+    min-height: 200px;
+    max-height: 80%;
+    border-radius: 15px;
+    padding: 15px;
+    background-color: rgba(165, 42, 42, 0.658);
+}
